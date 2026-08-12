@@ -1,0 +1,17 @@
+﻿legajo,dni,nombre,apellido,fechaNacimiento,telefono,correoElectronico,direccionDomicilio,numeroDomicilio,pisoDomicilio,codigoPostalDomicilio,fechaIngreso,idCargo,idTurno
+1,30683182,Tomàs,Gimenez,1996-01-20,1156399187,tomàs.gimenez396@hotmail.com,Los Espinillos,4187,,1700,2026-07-16,1,1
+2,44166054,Alma,Perez,1986-07-02,1190674309,alma.perez525@outlook.com,Los Olivos,1708,,1700,2026-07-05,1,1
+3,31086300,Tomas Benjamin,Ruiz,1997-02-02,1199454828,tomasbenjamin.ruiz860@hotmail.com,Los Robles,505,6,1700,2025-12-04,2,1
+4,38491012,Ramiro,Aguirre,2001-09-18,1147297419,ramiro.aguirre333@outlook.com,Los Tilos,1244,,1700,2026-05-23,3,1
+5,32667502,Valentina,Garcia,2000-05-24,1139091054,valentina.garcia670@gmail.com,Los Tilos,1152,,1700,2025-10-08,1,2
+6,48923744,Faustino,Barrios,1999-01-25,1119425376,faustino.barrios31@gmail.com,Los Nogales,1899,,1700,2025-11-10,1,2
+7,32993863,Mateo,Martinez,2007-06-07,1164296102,mateo.martinez251@yahoo.com.ar,Los Ombúes,2950,2,1700,2026-05-09,2,2
+8,41814097,Rafael,Ayala,1991-02-10,1123077639,rafael.ayala248@yahoo.com.ar,Las Magnolias,3872,,1700,2025-12-28,3,2
+9,37276848,Benicio,Molina,2000-11-06,1132557014,benicio.molina160@hotmail.com,Los Robles,1899,,1700,2025-12-29,1,3
+10,42602352,Pedro,Acosta,1980-06-11,1136778368,pedro.acosta403@yahoo.com.ar,Los Álamos,3697,,1700,2025-11-19,1,3
+11,41831612,Nicolas,Vargas,1997-04-20,1149177719,nicolas.vargas778@outlook.com,Los Álamos,3065,,1700,2025-10-09,2,3
+12,42259302,Lucio,Vera,1996-12-10,1174552323,lucio.vera746@outlook.com,Los Eucaliptos,2855,4,1700,2025-11-18,3,3
+13,44604506,Bautista,Martinez,2003-02-02,1186228281,bautista.martinez651@hotmail.com,Los Cipreses,3208,,1700,2026-07-27,1,2
+14,32364098,Mia Valentina,Vera,2000-10-19,1129487712,miavalentina.vera457@yahoo.com.ar,Los Espinillos,871,,1700,2025-11-17,1,2
+15,33667377,Pilar,Vargas,1995-05-09,1118472631,pilar.vargas788@gmail.com,Los Fresnos,3733,,1700,2025-11-24,2,1
+16,44143694,Maximiliano,Ledesma,1997-10-16,1156238903,maximiliano.ledesma142@hotmail.com,Las Camelias,4272,,1700,2026-06-10,3,3
