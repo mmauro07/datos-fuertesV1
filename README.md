@@ -37,15 +37,14 @@ datos-fuertesV1/
 │
 ├── SQL/
 │   ├── CreacionTablas.sql
-│   ├── Procedimientos.sql
-│   └── ...
+│   └── CargaInicial.sql 
 │
 ├── GeneracionDatos/
 │   ├── main.py
-│   ├── CargaInicial.py
 │   ├── config.py
 │   ├── tipos_sql.py
-│   ├── exportador.py
+│   ├── utilidades/
+│   │   └── exportador.py
 │   │
 │   ├── modelos/
 │   │   └── ...
@@ -71,9 +70,6 @@ Configuración + modelos + generadores
           Archivos CSV
                 │
                 ▼
-        CargaInicial.py
-                │
-                ▼
           SQL Server 2025
 ```
 
@@ -93,7 +89,6 @@ SQL Server se encarga de:
 - Aplicar claves primarias y foráneas.
 - Aplicar restricciones `CHECK` y `UNIQUE`.
 - Mantener la integridad referencial.
-- Ejecutar procedimientos y lógica propia de base de datos.
 
 ## Datos generados
 
@@ -152,17 +147,9 @@ El programa genera los archivos CSV correspondientes a las entidades del proyect
 
 ### 4. Cargar los datos
 
-Una vez generados los CSV, ejecutar:
+Una vez generados los CSV, ejecutar el script de carga inicial ubicado en `SQL/` sobre una instancia de SQL Server.
 
-```powershell
-python CargaInicial.py
-```
-
-Este proceso carga los datos generados en SQL Server utilizando el procedimiento de importación definido en los scripts SQL.
-
-### 5. Cargar relaciones manuales
-
-Las relaciones fijas que no se generan aleatoriamente, como `MaquinaEjercicio` y `EquipamientoEjercicio`, se cargan mediante los scripts SQL correspondientes.
+Este proceso carga los datos generados en SQL Server utilizando el procedimiento de importación definido dentro del mismo script SQL.
 
 ## Diseño y criterios de generación
 
@@ -195,7 +182,7 @@ Entre las siguientes posibilidades de expansión se encuentran:
 - Análisis temporal de ingresos y actividad.
 - Segmentación de socios.
 - Aplicaciones de machine learning.
-- Nuevas consultas, vistas, procedimientos y triggers.
+- Implementación de consultas, vistas, procedimientos y triggers.
 
 ## Autor
 
