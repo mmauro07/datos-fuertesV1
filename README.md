@@ -52,9 +52,23 @@ datos-fuertesV1/
 │   └── generadores/
 │       └── ...
 │
+│
+├── Documentacion/
+│   ├── DefinicionProblemaInfologico.docx
+│   └── GimnasioDatosFuertes.drawio
+│
 ├── README.md
 └── .gitignore
 ```
+
+## Documentación y diseño
+
+El proyecto incluye documentación correspondiente a las etapas de análisis y diseño de la base de datos:
+
+- [Definición del problema infológico](Documentacion/DefinicionProblemaInfologico.docx)
+- [Diagrama de la base de datos](Documentacion/GimnasioDatosFuertes.drawio)
+
+La definición del problema infológico describe las necesidades, reglas de negocio y alcance del sistema. El diagrama representa el diseño conceptual y las relaciones entre las entidades que conforman la base de datos.
 
 ## Arquitectura de generación
 
